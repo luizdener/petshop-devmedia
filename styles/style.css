@@ -1,0 +1,167 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body, html {
+  height: 100vh;
+  font-size: 16px;
+}
+
+.destaque {
+  font-weight: 700;
+  font-style: italic;
+}
+
+.banner {
+  width: 100vw;
+  padding: 120px 80px;
+  background: url("../images/banner-topo.jpg") center no-repeat;
+  background-size: cover;
+  color: #3c184e;
+}
+.banner .logo {
+  max-width: 250px;
+  font-size: 35px;
+  text-align: center;
+  margin-bottom: 5px;
+}
+.banner .logo img {
+  width: 30px;
+  margin-right: 5px;
+}
+.banner .logo p {
+  font-size: 14px;
+  text-align: center;
+}
+.banner .banner-text {
+  max-width: 1024px;
+  padding: 40px;
+  margin: 70px auto 0 auto;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.768627451);
+  box-shadow: 0px 8px 32px rgba(31, 38, 135, 0.368627451);
+  text-align: center;
+}
+.banner .banner-text h1 {
+  font-size: 60px;
+  text-align: center;
+  font-weight: 800;
+  word-wrap: none;
+  margin-bottom: 40px;
+}
+.banner .banner-text a {
+  width: 200px;
+  padding: 10px 25px;
+  margin: 0 auto;
+  border-radius: 10px;
+  background-color: #3c184e;
+  font-size: 20px;
+  text-align: center;
+  color: #fff;
+  text-decoration: none;
+}
+.banner .banner-text a img {
+  width: 20px;
+}
+
+.services {
+  width: 100%;
+  padding: 120px 80px;
+  color: #3c184e;
+}
+.services h3 {
+  font-size: 36px;
+  text-align: center;
+  margin-bottom: 45px;
+}
+.services ul {
+  max-width: 800px;
+  margin: 0 auto 50px auto;
+}
+.services ul li {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+.services .images-services {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+.services .images-services img {
+  border-radius: 5px;
+  box-shadow: 3px 6px 10px 6px rgba(0, 0, 0, 0.3607843137);
+}
+
+.social-medias {
+  background-color: #3c184e;
+  padding: 120px 80px;
+  text-align: center;
+  color: #fff;
+}
+.social-medias p {
+  max-width: 800px;
+  margin: 0 auto 50px auto;
+  font-size: 40px;
+}
+.social-medias .links {
+  text-align: center;
+}
+.social-medias .links a {
+  margin: 0px 20px;
+  text-decoration: none;
+}
+.social-medias .links a img {
+  width: 50px;
+  height: 50px;
+}
+
+.marks {
+  width: 100%;
+  padding: 120px 80px;
+  color: #3c184e;
+}
+.marks h3 {
+  font-size: 36px;
+  text-align: center;
+  margin-bottom: 45px;
+}
+.marks .list-marks {
+  max-width: 800px;
+  margin: 0 auto;
+}
+.marks .list-marks img {
+  width: 148px;
+  height: 148px;
+  margin: 0 15px;
+}
+
+.location {
+  width: 100%;
+  padding: 120px 80px;
+  text-align: center;
+  color: #3c184e;
+}
+.location h3 {
+  font-size: 36px;
+  margin-bottom: 45px;
+}
+.location p {
+  font-size: 36px;
+  margin-bottom: 45px;
+}
+.location iframe {
+  max-width: 800px;
+  height: 450px;
+}
+
+.footer {
+  width: 100%;
+  padding: 10px 0px;
+  background-color: #3c184e;
+  font-size: 12px;
+  color: #fff;
+  text-align: center;
+}/*# sourceMappingURL=style.css.map */
